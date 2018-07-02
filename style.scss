@@ -1,0 +1,194 @@
+$highlight-colour: rgb(255, 251, 0);
+$background-colour: rgb(53, 53, 53);
+$alt-background-colour: rgb(221, 221, 221);
+$text-colour: $highlight-colour;
+$alt-text-colour: white;
+@mixin box-sizing($sizing){
+    -webkit-box-sizing: $sizing;
+    -moz-box-sizing: $sizing;
+    box-sizing: $sizing;
+}
+
+@mixin animate($args){
+    -webkit-animation: unquote($args);
+    -moz-animation: unquote($args);
+    -o-animation: unquote($args);
+    animation: unquote($args);
+
+}
+@font-face {
+    font-family: 'WCManoNegra';
+    src: url('WCManoNegraBta-webfont.woff')
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(-45deg, rgb(29, 29, 29) 0%, #353535 70%);
+    background: linear-gradient(-45deg, rgb(29, 29, 29) 0%, #353535 70%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes intro {
+    0% {
+      width: 10px;
+      height: 10px;
+    }
+    30% {
+      width: 120px;
+      height: 10px;
+    }
+    60% {
+      width: 120px;
+      height: 50px;
+      transform: translateX(0px)
+    }
+    100% {
+      transform: translateX(100px)
+    }
+  }
+
+  @keyframes enda {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: {
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        right: 15px;
+    }
+    @include box-sizing(border-box);
+}
+
+.navbar{
+    display: inherit;
+    height: 50px;
+    margin: {
+        top: 0;
+        bottom: 0px;
+    }
+    .brand {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        clear: both;
+        text-align: center;
+        background-color: $highlight-colour;
+        z-index: 2;
+        .nav-trigger, .logo{
+            margin: auto 15px;
+        }
+    }
+    .nav{
+        position: relative;
+        bottom: 50px;
+        list-style: none;
+        padding-left: 0;
+        height: 50px;
+        background-color: $alt-background-colour;
+        border-bottom: 3px solid $highlight-colour;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+        transition: all 0.3s;
+        &.open{
+            transform: translateY(50px)
+        }
+        li {
+            text-align: center;
+            a {
+                color: rgb(4,4,4);
+                &:visited, &:link, &:hover{
+                    text-decoration: none;
+                }
+                i {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+.logo {
+    width: 120px;
+    height: 50px;
+    background-color: $highlight-colour;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {   
+      opacity: 0;
+      z-index: 0;
+      font: {
+          size: 24px;
+          family: WCManoNegra;
+      }
+      @include animate("enda 0.2s ease 0.5s 1 forwards");
+    }
+}
+.logo::before {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+/*
+@media (min-width: 600px){
+
+    .navbar{
+        width: 90%;
+        margin: auto;
+        background-color: $background-colour;
+        border-bottom: 3px solid $highlight-colour;
+        display: flex;
+        justify-content: space-between;
+        .brand{
+            display: inline-block;
+            .nav-trigger{
+                display: none;
+            }
+        }
+        .nav{
+            display: flex;
+            position: static;
+            border-bottom: none;
+            background-color: transparent;
+            box-sizing: border-box;
+            li a{
+                display: block;
+                align-items: center;
+                color: rgb(240, 240, 240);
+                padding: {
+                    top: auto;
+                    bottom: auto;
+                    left: 20px;
+                    right: 20px;
+                }
+            }
+        }
+    }
+
+}*/

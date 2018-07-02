@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="fa/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <span class="nav-trigger"><i class="fa fa-lg fa-bars"></i></span>
+        <div class="logo">
+          <span>uSipho<sub>.co.zw</sub></span>
+        </div>
+      </div>
+      <ul class="nav">
+        <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#"><i class="fa fa-archive"></i>About</a></li>
+        <li><a href="#"><i class="fa fa-list"></i>Projects</a></li>
+        <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script>
+    var trigger = document.querySelector('.nav-trigger')
+    trigger.addEventListener('click', function(e){
+      var nav = document.querySelector('.nav')
+      if (nav.classList.contains('open')) nav.classList.remove('open');
+      else nav.classList.add('open');
+    })
+  </script>
+</body>
+
+</html>
