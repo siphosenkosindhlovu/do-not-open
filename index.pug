@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+html
+  head
+    meta(chaset="utf-8")
+    meta(
+      name="viewport",
+      content="width=device, initial-scale=1"
+    )
+    link(
+      rel="stylesheet",
+      href="fa/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css"
+    )
+    link(
+      rel="stylesheet",
+      href="node_modules/mini.css/dist/mini-dark.css"
+    )
+    link(
+      rel="stylesheet",
+      href="stars.css"
+    )
+    link(
+      rel="stylesheet",
+      href="style.css"
+    )
+    style.
+      body {
+        max-width: 100vw;
+        overflow: hidden;
+      }
+      @font-face {
+        font-family: 'WCManoNegra';
+        src: url('WCManoNegraBta-webfont.woff')
+      }
+
+      .logo {
+        font-size: 24px;
+        color: white;
+        font-family: WCManoNegra !important;
+      }
+
+      .logo sub {
+        font-family: WCManoNegra !important;
+        position: relative;
+      }
+  body
+    .rotate
+      .phone
+    header#top-nav
+      span.logo uSipho
+        sub front end
+      nav
+        a.button(href="#") Home
+        a.button(href="#") About
+        a.button(href="#") Projects
+        a.button(href="#") Contact
+    section#welcome-section.container
+        h1 Hi, I'm a heading
+          small And I'm small text.
+        p
+          - var imgs = ["HTML5_Logo.svg","javascript.svg", "React_logo_wordmark.png", "bootstrap-solid.svg", "nodejs.png"]
+          - for (var i = 0; i < imgs.length; i++)
+            img.skillsthumb(src=`logos\\${imgs[i]}`)
+          br
+          br
+          button.action I'm a button
+
+        .canvas
+          - for (let i = 0; i <= 100; i++)
+            div(id=`star${i}`)
+    section#projects.container
+      header
+        h1 Projects
+      .row.cols-md-3
+        .card
+          .section JavaScript Calculator
+          img.section.media(src="Group.png")
+        .card
+          .section JavaScript Calculator
+          img.section.media(src="Group.png")       
+        .card
+          .section JavaScript Calculator
+          img.section.media(src="Group.png")       
+        .card
+          .section JavaScript Calculator
+          img.section.media(src="Group.png")       
+        .card
+          .section JavaScript Calculator
+          img.section.media(src="Group.png")       
+        .card
+          .section JavaScript Calculator
+          img.section.media(src="Group.png")       
+        
+
+    section#contact.container
+      header
+        h1 Contact Me
+      .row.cols-md-6
+        div
+          form
+            fieldset
+              legend Contact
+              .row
+                .col-sm-3
+                  label(for="name") Name
+                .col-sm-9
+                  input#name(name="name")
+              .row  
+                .col-sm-3
+                  label(for="emailaddr") Email Address
+                .col-sm-9 
+                  input#emailaddr(name="emailaddr")
+              .row  
+                .col-sm-3 
+                  label(for="message") Message
+                .col-sm-9
+                  textarea#message(name="message",width="auto", rows="10")
+        div
+          h2 proble,ss

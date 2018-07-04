@@ -1,0 +1,1123 @@
+.canvas > div {
+  position: absolute;
+  z-index: -20000000;
+}
+
+@keyframes mooooving {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(4.5px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-4.5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+div#star1 {
+  top: 56%;
+  left: 3%;
+  background-color: #bd3ec9;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star2 {
+  top: 91%;
+  left: 18%;
+  background-color: #0422a1;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star3 {
+  top: 46%;
+  left: 97%;
+  background-color: #377263;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star4 {
+  top: 59%;
+  left: 66%;
+  background-color: #cb0684;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.4s;
+  animation-iteration-count: infinite;
+}
+
+div#star5 {
+  top: 83%;
+  left: 65%;
+  background-color: #d959a3;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star6 {
+  top: 46%;
+  left: 2%;
+  background-color: #a1c77f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star7 {
+  top: 58%;
+  left: 2%;
+  background-color: #87e70e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star8 {
+  top: 60%;
+  left: 91%;
+  background-color: #43893d;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+div#star9 {
+  top: 27%;
+  left: 37%;
+  background-color: #91631a;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star10 {
+  top: 7%;
+  left: 45%;
+  background-color: #269805;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star11 {
+  top: 25%;
+  left: 46%;
+  background-color: #618945;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star12 {
+  top: 17%;
+  left: 29%;
+  background-color: #bcc123;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star13 {
+  top: 89%;
+  left: 61%;
+  background-color: #13bce0;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star14 {
+  top: 45%;
+  left: 83%;
+  background-color: #943ec6;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star15 {
+  top: 78%;
+  left: 71%;
+  background-color: #2f855c;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star16 {
+  top: 97%;
+  left: 14%;
+  background-color: #b5d9c3;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star17 {
+  top: 90%;
+  left: 18%;
+  background-color: #df6684;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star18 {
+  top: 93%;
+  left: 66%;
+  background-color: #857b85;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star19 {
+  top: 70%;
+  left: 30%;
+  background-color: #ecdb7b;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star20 {
+  top: 25%;
+  left: 98%;
+  background-color: #d7df38;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star21 {
+  top: 59%;
+  left: 74%;
+  background-color: #8ba63c;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star22 {
+  top: 95%;
+  left: 64%;
+  background-color: #e5e033;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star23 {
+  top: 67%;
+  left: 29%;
+  background-color: #b92eed;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star24 {
+  top: 28%;
+  left: 56%;
+  background-color: #ba41b3;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.4s;
+  animation-iteration-count: infinite;
+}
+
+div#star25 {
+  top: 8%;
+  left: 40%;
+  background-color: #f2175b;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star26 {
+  top: 9%;
+  left: 92%;
+  background-color: #4f4975;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star27 {
+  top: 84%;
+  left: 7%;
+  background-color: #01a6e9;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star28 {
+  top: 83%;
+  left: 100%;
+  background-color: #87c12e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star29 {
+  top: 49%;
+  left: 98%;
+  background-color: #30f099;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star30 {
+  top: 29%;
+  left: 43%;
+  background-color: #22442f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star31 {
+  top: 78%;
+  left: 28%;
+  background-color: #4a3cd9;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star32 {
+  top: 45%;
+  left: 62%;
+  background-color: #2117d9;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star33 {
+  top: 30%;
+  left: 8%;
+  background-color: #323c95;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star34 {
+  top: 68%;
+  left: 48%;
+  background-color: #a3f5bf;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star35 {
+  top: 26%;
+  left: 93%;
+  background-color: #0a8b44;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star36 {
+  top: 95%;
+  left: 41%;
+  background-color: #a9e403;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star37 {
+  top: 94%;
+  left: 86%;
+  background-color: #29c124;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star38 {
+  top: 32%;
+  left: 73%;
+  background-color: #16871f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star39 {
+  top: 87%;
+  left: 7%;
+  background-color: #64db2f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star40 {
+  top: 41%;
+  left: 61%;
+  background-color: #eb5772;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star41 {
+  top: 5%;
+  left: 16%;
+  background-color: #cf59e8;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.4s;
+  animation-iteration-count: infinite;
+}
+
+div#star42 {
+  top: 84%;
+  left: 69%;
+  background-color: #cc22de;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star43 {
+  top: 62%;
+  left: 4%;
+  background-color: #d0504c;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+div#star44 {
+  top: 29%;
+  left: 43%;
+  background-color: #e22b4f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star45 {
+  top: 44%;
+  left: 62%;
+  background-color: #6b7e36;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star46 {
+  top: 32%;
+  left: 39%;
+  background-color: #4d9c37;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star47 {
+  top: 50%;
+  left: 48%;
+  background-color: #974d71;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star48 {
+  top: 47%;
+  left: 85%;
+  background-color: #4b677c;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star49 {
+  top: 23%;
+  left: 23%;
+  background-color: #21b844;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star50 {
+  top: 57%;
+  left: 70%;
+  background-color: #daed91;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star51 {
+  top: 92%;
+  left: 31%;
+  background-color: #38b31a;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star52 {
+  top: 18%;
+  left: 46%;
+  background-color: #07c5b8;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star53 {
+  top: 56%;
+  left: 43%;
+  background-color: #8d0cf7;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star54 {
+  top: 47%;
+  left: 31%;
+  background-color: #d384b7;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star55 {
+  top: 61%;
+  left: 23%;
+  background-color: #b9aed6;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+div#star56 {
+  top: 79%;
+  left: 17%;
+  background-color: #a92403;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.4s;
+  animation-iteration-count: infinite;
+}
+
+div#star57 {
+  top: 97%;
+  left: 24%;
+  background-color: #c7c91e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star58 {
+  top: 87%;
+  left: 35%;
+  background-color: #7e5c9b;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+div#star59 {
+  top: 50%;
+  left: 61%;
+  background-color: #c8871e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star60 {
+  top: 3%;
+  left: 15%;
+  background-color: #2a8ed5;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star61 {
+  top: 80%;
+  left: 61%;
+  background-color: #e83aff;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.4s;
+  animation-iteration-count: infinite;
+}
+
+div#star62 {
+  top: 45%;
+  left: 24%;
+  background-color: #ee92f0;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star63 {
+  top: 11%;
+  left: 62%;
+  background-color: #ecd7d7;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star64 {
+  top: 66%;
+  left: 61%;
+  background-color: #1aec5e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star65 {
+  top: 74%;
+  left: 13%;
+  background-color: #9cc049;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star66 {
+  top: 47%;
+  left: 84%;
+  background-color: #884daf;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star67 {
+  top: 4%;
+  left: 60%;
+  background-color: #5ec34f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star68 {
+  top: 57%;
+  left: 5%;
+  background-color: #59315d;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star69 {
+  top: 31%;
+  left: 34%;
+  background-color: #0b78fa;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star70 {
+  top: 26%;
+  left: 88%;
+  background-color: #d8c148;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star71 {
+  top: 98%;
+  left: 71%;
+  background-color: #108017;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.4s;
+  animation-iteration-count: infinite;
+}
+
+div#star72 {
+  top: 63%;
+  left: 14%;
+  background-color: #db75ab;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star73 {
+  top: 7%;
+  left: 11%;
+  background-color: #f5227a;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star74 {
+  top: 26%;
+  left: 58%;
+  background-color: #bdaca5;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star75 {
+  top: 84%;
+  left: 50%;
+  background-color: #3d2d06;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star76 {
+  top: 88%;
+  left: 26%;
+  background-color: #bfa0b2;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star77 {
+  top: 94%;
+  left: 43%;
+  background-color: #1fc14d;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star78 {
+  top: 6%;
+  left: 78%;
+  background-color: #2816a8;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star79 {
+  top: 84%;
+  left: 67%;
+  background-color: #7c6b4c;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+div#star80 {
+  top: 7%;
+  left: 1%;
+  background-color: #5850ad;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star81 {
+  top: 65%;
+  left: 32%;
+  background-color: #27c4b1;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star82 {
+  top: 21%;
+  left: 34%;
+  background-color: #59e940;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+div#star83 {
+  top: 28%;
+  left: 49%;
+  background-color: #7aac95;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star84 {
+  top: 65%;
+  left: 33%;
+  background-color: #ca4b2a;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star85 {
+  top: 63%;
+  left: 45%;
+  background-color: #4b5242;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star86 {
+  top: 44%;
+  left: 51%;
+  background-color: #17ba81;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+div#star87 {
+  top: 26%;
+  left: 48%;
+  background-color: #bb8b20;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star88 {
+  top: 95%;
+  left: 73%;
+  background-color: #07a73e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star89 {
+  top: 1%;
+  left: 71%;
+  background-color: #fbb615;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+}
+
+div#star90 {
+  top: 80%;
+  left: 18%;
+  background-color: #87e93f;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.3s;
+  animation-iteration-count: infinite;
+}
+
+div#star91 {
+  top: 37%;
+  left: 78%;
+  background-color: #e56f81;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star92 {
+  top: 6%;
+  left: 85%;
+  background-color: #d1f1f3;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star93 {
+  top: 41%;
+  left: 33%;
+  background-color: #e12946;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star94 {
+  top: 63%;
+  left: 8%;
+  background-color: #7f87de;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star95 {
+  top: 68%;
+  left: 60%;
+  background-color: #bb4d2e;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.2s;
+  animation-iteration-count: infinite;
+}
+
+div#star96 {
+  top: 47%;
+  left: 42%;
+  background-color: #bf95a4;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+div#star97 {
+  top: 4%;
+  left: 7%;
+  background-color: #f2c641;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+}
+
+div#star98 {
+  top: 49%;
+  left: 6%;
+  background-color: #70efdd;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+}
+
+div#star99 {
+  top: 92%;
+  left: 14%;
+  background-color: #c5d3f7;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.7s;
+  animation-iteration-count: infinite;
+}
+
+div#star100 {
+  top: 18%;
+  left: 49%;
+  background-color: #d29455;
+  width: 2px;
+  height: 2px;
+  animation-name: mooooving;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=stars.css.map */

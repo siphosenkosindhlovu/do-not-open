@@ -21,12 +21,11 @@ $alt-text-colour: white;
     src: url('WCManoNegraBta-webfont.woff')
 }
 body{
-    margin: 0;
-    min-height: 100vh;
     background: -webkit-linear-gradient(-45deg, rgb(29, 29, 29) 0%, #353535 70%);
     background: linear-gradient(-45deg, rgb(29, 29, 29) 0%, #353535 70%);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100%;
+    overflow: scroll !important;
 }
 @keyframes intro {
     0% {
@@ -56,139 +55,110 @@ body{
     }
   }
 
-.container {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: {
-        top: 0;
-        bottom: 0;
-        left: 15px;
-        right: 15px;
-    }
-    @include box-sizing(border-box);
-}
-
-.navbar{
-    display: inherit;
-    height: 50px;
-    margin: {
-        top: 0;
-        bottom: 0px;
-    }
-    .brand {
-        display: flex;
-        position: relative;
-        justify-content: space-between;
-        align-items: center;
-        clear: both;
-        text-align: center;
-        background-color: $highlight-colour;
-        z-index: 2;
-        .nav-trigger, .logo{
-            margin: auto 15px;
-        }
-    }
-    .nav{
-        position: relative;
-        bottom: 50px;
-        list-style: none;
-        padding-left: 0;
-        height: 50px;
-        background-color: $alt-background-colour;
-        border-bottom: 3px solid $highlight-colour;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        z-index: 1;
-        transition: all 0.3s;
-        &.open{
-            transform: translateY(50px)
-        }
-        li {
-            text-align: center;
-            a {
-                color: rgb(4,4,4);
-                &:visited, &:link, &:hover{
-                    text-decoration: none;
-                }
-                i {
-                    display: none;
-                }
-            }
-        }
-    }
-}
-
-
-.logo {
-    width: 120px;
-    height: 50px;
-    background-color: $highlight-colour;
-    position: relative;
-    overflow: hidden;
+header#top-nav {
+    height: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2000;
+    nav {
+        border: none;
+        border-radius: 0;
+        margin: 0;
+    }
+}
+section#welcome-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    span {   
-      opacity: 0;
-      z-index: 0;
-      font: {
-          size: 24px;
-          family: WCManoNegra;
-      }
-      @include animate("enda 0.2s ease 0.5s 1 forwards");
+    text-align: center;
+    
+    .skillsthumb{
+        height: 30px;
+        margin: 20px;
+        margin-left: 0;
     }
 }
-.logo::before {
-    content: " ";
-    display: block;
-    width: 50px;
-    height: 50px;
-    background: white;
-    position: absolute;
-    bottom: 0;
-    animation-name: intro;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    z-index: 1;
-  }
-/*
-@media (min-width: 600px){
-
-    .navbar{
-        width: 90%;
-        margin: auto;
-        background-color: $background-colour;
-        border-bottom: 3px solid $highlight-colour;
-        display: flex;
-        justify-content: space-between;
-        .brand{
-            display: inline-block;
-            .nav-trigger{
-                display: none;
-            }
-        }
-        .nav{
-            display: flex;
-            position: static;
-            border-bottom: none;
-            background-color: transparent;
-            box-sizing: border-box;
-            li a{
-                display: block;
-                align-items: center;
-                color: rgb(240, 240, 240);
-                padding: {
-                    top: auto;
-                    bottom: auto;
-                    left: 20px;
-                    right: 20px;
-                }
-            }
+button.action{
+    margin: 0;
+}
+section:not(#welcome-section){
+    text-align: center;
+    //background-color: $alt-background-colour;
+    header{
+        background-color: $alt-background-colour;
+        color: black;
+    }
+    .row {
+        justify-content: space-around !important;
+        padding: {
+        top: 20px;
+        bottom: 20px;
         }
     }
+}
 
-}*/
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+        border-color: #888;
+    }
+    20%{
+        opacity: 1;
+    }
+    50%{
+        border-color: #888;
+    }
+    60%{
+        border-color: rgb(255, 221, 0);
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(90deg);
+        opacity: 0;
+        border-color: rgb(255, 221, 0);
+    }
+}
+.rotate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000000000;
+    .phone {
+        width: 90px;
+        height: 50px;
+        border: 3px solid #888;
+        border: {
+            radius: 5px;
+            left-width: 12px;
+            right-width: 12px;
+        }
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 728px){
+    .rotate {
+        display: flex;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 728px){
+    #welcome-section{
+        max-height: 600px;
+    }
+}
+
